@@ -1,0 +1,43 @@
+{
+  "requestId": "REQ-002",
+  "userId": "user2",
+  "rawInputNames": [
+    "Aastha Gupta",
+    "Paasta Gupta"
+  ],
+  "normalizedInputNames": [
+    "aastha gupta",
+    "gupta paasta"
+  ],
+  "top3Matches": [
+    {
+      "inputName": "Aastha Gupta",
+      "watchlistId": "W6",
+      "watchlistName": "Aastha Gupta",
+      "score": 1,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "Paasta Gupta",
+      "watchlistId": "W2",
+      "watchlistName": "Maria Garcia",
+      "score": 0.585,
+      "matchType": "NO_MATCH"
+    },
+    {
+      "inputName": "Paasta Gupta",
+      "watchlistId": "W6",
+      "watchlistName": "Aastha Gupta",
+      "score": 0.55,
+      "matchType": "NO_MATCH"
+    }
+  ],
+  "bestMatch": {
+    "inputName": "Aastha Gupta",
+    "watchlistId": "W6",
+    "watchlistName": "Aastha Gupta",
+    "score": 1,
+    "matchType": "EXACT_MATCH"
+  },
+  "bestMatchType": "EXACT_MATCH"
+}

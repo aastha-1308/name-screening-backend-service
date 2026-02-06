@@ -1,0 +1,43 @@
+{
+  "requestId": "REQ-001",
+  "userId": "user1",
+  "rawInputNames": [
+    "Alex Jon Smyth",
+    "Smyth Alex"
+  ],
+  "normalizedInputNames": [
+    "alex jon smyth",
+    "alex smyth"
+  ],
+  "top3Matches": [
+    {
+      "inputName": "Smyth Alex",
+      "watchlistId": "W4",
+      "watchlistName": "Smith Alex",
+      "score": 0.914,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "Alex Jon Smyth",
+      "watchlistId": "W1",
+      "watchlistName": "Alex John Smith",
+      "score": 0.8883,
+      "matchType": "POSSIBLE_MATCH"
+    },
+    {
+      "inputName": "Alex Jon Smyth",
+      "watchlistId": "W4",
+      "watchlistName": "Smith Alex",
+      "score": 0.851,
+      "matchType": "POSSIBLE_MATCH"
+    }
+  ],
+  "bestMatch": {
+    "inputName": "Smyth Alex",
+    "watchlistId": "W4",
+    "watchlistName": "Smith Alex",
+    "score": 0.914,
+    "matchType": "EXACT_MATCH"
+  },
+  "bestMatchType": "EXACT_MATCH"
+}

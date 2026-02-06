@@ -1,0 +1,45 @@
+{
+  "requestId": "REQ-005",
+  "userId": "user5",
+  "rawInputNames": [
+    "john Smith",
+    "john real smith",
+    "smith real"
+  ],
+  "normalizedInputNames": [
+    "john smith",
+    "john real smith",
+    "real smith"
+  ],
+  "top3Matches": [
+    {
+      "inputName": "john Smith",
+      "watchlistId": "W4",
+      "watchlistName": "Smith John",
+      "score": 1,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "john real smith",
+      "watchlistId": "W4",
+      "watchlistName": "Smith John",
+      "score": 0.9067,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "john Smith",
+      "watchlistId": "W1",
+      "watchlistName": "Alex John Smith",
+      "score": 0.7917,
+      "matchType": "POSSIBLE_MATCH"
+    }
+  ],
+  "bestMatch": {
+    "inputName": "john Smith",
+    "watchlistId": "W4",
+    "watchlistName": "Smith John",
+    "score": 1,
+    "matchType": "EXACT_MATCH"
+  },
+  "bestMatchType": "EXACT_MATCH"
+}

@@ -1,0 +1,55 @@
+{
+  "requestId": "REQ-003",
+  "userId": "user3",
+  "rawInputNames": [
+    "Vibhanshu",
+    "Vibhanshu Pnadey",
+    "Vibnashu pndey",
+    "Vibhaaanshu Kumar",
+    "Vibhansu Kumar Panday",
+    "Kumar Panda",
+    "Vibhu pnadey",
+    "vIbhu Kumar Pandey"
+  ],
+  "normalizedInputNames": [
+    "vibhanshu",
+    "pnadey vibhanshu",
+    "pndey vibnashu",
+    "kumar vibhaaanshu",
+    "kumar panday vibhansu",
+    "kumar panda",
+    "pnadey vibhu",
+    "kumar pandey vibhu"
+  ],
+  "top3Matches": [
+    {
+      "inputName": "Vibhansu Kumar Panday",
+      "watchlistId": "W5",
+      "watchlistName": "Vibhanshu Kumar Pandey",
+      "score": 0.9436,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "vIbhu Kumar Pandey",
+      "watchlistId": "W5",
+      "watchlistName": "Vibhanshu Kumar Pandey",
+      "score": 0.9339,
+      "matchType": "EXACT_MATCH"
+    },
+    {
+      "inputName": "Vibhaaanshu Kumar",
+      "watchlistId": "W5",
+      "watchlistName": "Vibhanshu Kumar Pandey",
+      "score": 0.8676,
+      "matchType": "POSSIBLE_MATCH"
+    }
+  ],
+  "bestMatch": {
+    "inputName": "Vibhansu Kumar Panday",
+    "watchlistId": "W5",
+    "watchlistName": "Vibhanshu Kumar Pandey",
+    "score": 0.9436,
+    "matchType": "EXACT_MATCH"
+  },
+  "bestMatchType": "EXACT_MATCH"
+}

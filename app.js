@@ -65,33 +65,7 @@ app.post("/process/:userId/:requestId", (req, res) => {
       ? input.fullName
       : [input.fullName];
 
-    // each watchlist id will have one corresponding best match, instead of watchlist ids occurring again and again in top matches - which results in unclarity and inflated misleading information
-    // const bestByWatchlist = {};
-
-    // for (const name of inputNames) {
-    //   const normalizedInput = tokenizeAndSort(name);
-
-    //   for (const entry of watchlist) {
-    //     const normalizedWatch = tokenizeAndSort(entry.name);
-    //     const score = computeNameSimilarity(normalizedInput, normalizedWatch);
-    //     // const score = jaroWinkler(normalizedInput, normalizedWatch);
-
-    //     if (
-    //       !bestByWatchlist[entry.id] ||
-    //       score > bestByWatchlist[entry.id].score
-    //     ) {
-    //       bestByWatchlist[entry.id] = {
-    //         inputName: name,
-    //         watchlistId: entry.id,
-    //         watchlistName: entry.name,
-    //         score: Number(score.toFixed(4)),
-    //         matchType: getMatchType(score),
-    //       };
-    //     }
-    //   }
-    // }
-
-    // const comparisons = Object.values(bestByWatchlist);
+    
 
     const comparisons = [];
 

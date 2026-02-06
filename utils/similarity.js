@@ -83,9 +83,7 @@ function computeNameSimilarity(normalizedInput, normalizedWatch) {
   const jwScore = jaroWinkler(normalizedInput, normalizedWatch);
   const tokenScore = fuzzyTokenOverlapScore(normalizedInput, normalizedWatch);
   return 0.9 * jwScore + 0.1 * tokenScore;
-  // const jwScore = jaroWinkler(normalizedInput, normalizedWatch);
-  // const jwTokenWiseScore = tokenWiseJW(normalizedInput, normalizedWatch);
-  // return 0.5 * jwScore + 0.5 * jwTokenWiseScore;
+
 }
 
 module.exports = {
